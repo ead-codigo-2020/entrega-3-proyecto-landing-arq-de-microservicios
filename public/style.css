@@ -69,7 +69,7 @@ h4 {
 }
 h5 {
 	margin:0 0 10px;
-	font-size:1.1em;
+	font-size:1.5em;
 	color: #B00000;
 }
 #content {
@@ -96,9 +96,141 @@ h5 {
 #pitch {
 	border-bottom:1px solid #ddd;
 	margin:0 0 40px;
-	padding:30px 400px 15px 0;
+	padding:100px 400px 100px 0;
 	background:url("../public/img/pitch.png") no-repeat right bottom;
 }
 #pitch p {
 	font-size:1.04em;
+}
+.col {
+	float:left;
+	width:420px;
+	margin:0 35px 40px 0;
+}
+.col h3 {
+	border-left:4px solid #B00000;
+	padding:0 0 5px 12px;
+}
+.col a {
+	font-weight:bold;
+}
+.col p {
+	margin:0 0 10px;
+}
+.ft {
+	border-left:1px solid #ddd;
+	padding:8px 0 0 15px;
+}
+.last {
+	margin-right:0;
+}
+.date {
+	float:left;
+	font-size:.8em;
+	width:25px;
+	padding:5px 0 0;
+	margin:0 0 3px;
+	color:#999;
+}
+.date span {
+	font-size:1.5em;
+}
+.news {
+	float:right;
+	width:250px;
+}
+.col h4 {
+	padding:0 0 0 35px;
+}
+.section {
+	clear:both;
+	border-top:1px solid #ddd;
+	margin:0 0 30px;
+}
+.section p {
+	position:relative;
+	margin:-8px 0 0 27px;
+	padding:0 8px;
+	font-size:.74em;
+	background:#fff;
+	float:left;
+}
+#slider {
+	float:left;
+	width:15px;
+	height:385px;
+	border:1px solid #ddd;
+	background-color: #B00000;
+}
+#slider:hover {
+	background-color:#f4f4f4;
+}
+#directory {
+	float:right;
+	width:901px;
+}
+.fourth {
+	float:left;
+	width:410px;
+	padding:8px;
+	height:100px;
+	margin:0 15px 15px 0;
+	border:1px solid #ddd;
+	font-size:.84em;
+}
+#updates {
+	float:right;
+	border:1px solid #ddd;
+	height:105px;
+	padding:20px 10px 0;
+	width:266px;
+}
+#updates p {
+	font-size:.84em;
+}
+#updates h5 {
+	margin:0 0 15px;
+}
+#slider-1 {
+	float:right;
+	width:15px;
+	height:392px;
+	border:1px solid #ddd;
+	background-color: #B00000;
+}
+#slider-1:hover {
+	background-color:#f4f4f4;
+}
+#directory-1 {
+	float:right;
+    width:901px;
+    background-image: url("../public/img/line-mps.jpg"), linear-gradient(#303030c0 0%, #00000052 100%);
+    background-size:cover;
+    background-blend-mode:soft-light
+}
+.fourth-1 {
+	float:right;
+	width:850px;
+	padding:8px;
+	height:100px;
+	margin:0 15px 15px 0;
+    font-size:13px;
+    color: #ffffff;
+}
+#footer {
+	clear:both;
+	font-size:.9em;
+	padding:25px 0 10px;
+	border-top:1px solid #ddd;
+}
+#footer a {
+	margin:0;
+	background:#fff;
+	color:#777;
+}
+#footer .left {
+	float:left;
+}
+#footer .right {
+	float:right;
 }
