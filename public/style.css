@@ -1,0 +1,104 @@
+* {
+	margin:0;
+	padding:0;
+}
+:focus, :active {
+	outline:0;
+}
+ul, ol {
+	list-style:none;
+}
+h1, h2, h3, h4, h5, h6, pre, code {
+	font-weight:normal;
+	color:#000;
+	font-size:1em;
+}
+a img {
+	border:0;
+}
+body {
+	font:.84em Arial, Sans-Serif;
+	background:#fff;
+	color:#777;
+}
+a {
+	text-decoration:none;
+	color:#2D648A;
+}
+a:hover, a:focus {
+	color:#000;
+}
+p {
+	margin:0 0 15px;
+	line-height:1.6em;
+}
+.x {
+	clear:both;
+}
+.line {
+	clear:both;
+	padding:15px 0 0;
+	border-bottom:1px solid #ddd;
+	margin:0 0 35px;
+}
+h1 {
+	font-size:2em;
+	font-weight:bolder;
+	letter-spacing:-2px;
+	margin:0 0 14px;
+	line-height:1.3em;
+	color:rgb(78, 78, 78);
+}
+h1 span {
+	font-size:1.84em;
+	color:#B00000;
+}
+h2 {
+	font-size:1.1em;
+	margin:0 0 10px;
+	padding:3px 0 5px;
+}
+h3 {
+	font-size:1.6em;
+	padding:0 0 7px;
+}
+h4 {
+	font-size:1.1em;
+	margin:0 0 10px;
+	padding:3px 0 5px;
+}
+h5 {
+	margin:0 0 10px;
+	font-size:1.1em;
+	color: #B00000;
+}
+#content {
+	margin:0 auto;
+	width:930px;
+}
+#menu {
+	margin:0 0 50px;
+}
+#menu li {
+	display:inline;
+}
+#menu li a {
+	float:left;
+	text-transform:uppercase;
+	font-size:.9em;
+	color:#000;
+	font-weight:bold;
+	margin:0 25px 0 0;
+}
+#menu li a:hover {
+	color:#2D648A;
+}
+#pitch {
+	border-bottom:1px solid #ddd;
+	margin:0 0 40px;
+	padding:30px 400px 15px 0;
+	background:url("../public/img/pitch.png") no-repeat right bottom;
+}
+#pitch p {
+	font-size:1.04em;
+}
