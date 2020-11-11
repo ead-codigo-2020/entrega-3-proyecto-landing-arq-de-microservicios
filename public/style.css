@@ -123,7 +123,7 @@ h5 {
 #directory-1 {
 	float:right;
     width:912px;
-    background-image: url("../public/img/line-mps.jpg"), linear-gradient(#303030ef 0%, #0000007c 100%);
+    background-image: url("../public/img/line-mps.jpg"), linear-gradient(#000000d8 0%, #00000093 100%);
     background-size:100%;
     background-blend-mode:soft-light
 }
