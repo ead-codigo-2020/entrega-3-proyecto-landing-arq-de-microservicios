@@ -194,7 +194,7 @@ h5 {
 #slider-1 {
 	float:right;
 	width:15px;
-	height:392px;
+	height:434px;
 	border:1px solid #ddd;
 	background-color: #B00000;
 }
@@ -211,7 +211,7 @@ h5 {
 .fourth-1 {
 	float:right;
 	width:850px;
-	padding:8px;
+	padding-top:30px;
 	height:100px;
 	margin:0 15px 15px 0;
     font-size:13px;
