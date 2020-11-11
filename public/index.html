@@ -23,31 +23,32 @@
 	<p>Para comprender la arquitectura basada en microservicios, lo mejor es considerar su opuesto, su némesis, la arquitectura monolítica . En ésta, la aplicación se desarrolla como una única unidad que no necesitará de ningún componente externo para funcionar . Por ejemplo, en una aplicación como la que desarrollamos hace unos días en Meteor que cuenta con un lado del cliente y un lado servidor, el “monolito” cliente se encargará de las peticiones HTTP, ejecutar la lógica y recibir/actualizar la información desde la base de datos. El problema de las aplicaciones monolíticas es que todos los “ciclos de cambio” están vinculados unos a otros , por lo que la más mínima modificación en una remota sección de la app conllevaría a la creación y despliegue de una versión completamente nueva, con el gasto de recursos correspondiente. Por no hablar de si queremos escalar un apartado específico del proyecto o directamente la aplicación al completo; y aquí es donde los desarrolladores han visto el potencial de los microservicios.</p>
   </div>
 </div>
-    <!--Cuerpo-->
+	<!--Cuerpo-->
+<div class="line"></div>
   <div class="x"></div>
-  <h1>xx</h1>
+  <h1>CARACTERISTICAS DEL SOFTWARE DE MICROSERVICIOS</h1>
   <div class="col">
-    <h3>Receptor Único</h3>
+    <h3>Funciones independientes</h3>
     <div class="ft">
-     <p>En este caso, cada solicitud ha de ser procesada por un receptor o un servicio. Un ejemplo de este tipo de comunicación es el patrón Command.</p>
+		<p>El software construido en base a microservicios se podrá descomponer en varias partes funcionales independientes . Siendo así, cada uno de estos servicios podrá ser desplegado, modificado y re-desplegado sin comprometer los otros aspectos funcionales de la aplicación; y como resultado en caso de necesitarlo, sólo tendremos que modificar un par de servicios en lugar de redesplegar toda la aplicación al completo nuevamente.</p>
     </div>
   </div>
   <div class="col">
-    <h3>Varios Receptores</h3>
+    <h3>Nivel de Organizacion</h3>
     <div class="ft">
-      <p>Un ejemplo de este tipo es la arquitectura de microservicios controlada por eventos, la cual se basa en un agente de mensajes o interfaz de bus de eventos que se dedica a propagar las actualizaciones de datos entre diferentes microservicios a través de eventos.</p>
+		<p>La forma en la que se organizan los microservicios suele ser en torno a las necesidades, capacidades y prioridades del cliente o negocio en el que se implantará . A diferencia de un entorno monolítico donde cada equipo de trabajo tiene un enfoque específico sobre un apartado de la aplicación, en la arquitectura de microservicios se utilizan módulos multifuncionales, adaptando así un módulo común a todos para que ofrezca un servicio determinado.</p>
     </div>
   </div>
   <div class="col">
-    <h3>Protocolo sincrónico</h3>
+    <h3>Puntos Inteligentes</h3>
     <div class="ft">
-      <p> Se caracteriza por ser un sistema que implica aislar lo máximo posible cada microservicio, puesto que se produce un bloqueo de los subprocesos. El HTTP/HTPS sería un ejemplo típico de protocolo de comunicación entre microservicios de tipo sincrónico, donde el cliente únicamente puede continuar su tarea en el momento que recibe una respuesta del servidor.</p>
+		<p>El funcionamiento del software de microservicios puede parecerse al sistema de trabajo clásico de UNIX (se recibe una petición, se procesa y se genera una respuesta consecuente. Se podría decir que la arquitectura de microservicios cuenta con puntos finales “inteligentes” que procesan la información en término y aplican la lógica establecida por el desarrollador.</p>
     </div>
   </div>
   <div class="col last">
-    <h3>Protocolo asincrónico</h3>
+    <h3>Modulos Independientes</h3>
     <div class="ft">
-      <p> En este caso, los subprocesos no están bloqueados y se utilizan protocolos compatibles con muchos sistemas operativos y entornos en la nube. Un ejemplo sería el protocolo AMQP, en el que normalmente el código del cliente o el remitente del mensaje no espera ninguna respuesta</p>
+		<p>La arquitectura de microservicios mantiene un sistema similar a un gobierno descentralizado , donde cada módulo contará por ejemplo con su propia base de datos, en lugar de acudir todos a la misma sobrecargándola así de solicitudes y arriesgándonos a que si falla ésta, todas la aplicación caiga.</p>
 	</div>
 </div>
 <!--Bajocuerpo patrones-->
