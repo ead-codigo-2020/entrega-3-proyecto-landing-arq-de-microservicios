@@ -81,8 +81,8 @@ h5 {
 	color: #B00000;
 }
 #content {
-	margin:0 auto;
-	width:930px;
+	margin:0 100px;
+	width:auto;
 }
 #menu {
 	margin:0 0 50px;
@@ -110,26 +110,66 @@ h5 {
 #pitch p {
 	font-size:1.04em;
 }
-#slider-1 {
-	float:right;
-	width:15px;
-	height:284px;
-	border:1px solid #ddd;
-	background-color: #B00000;
-}
-#slider-1:hover {
-	background-color:#f4f4f4;
-}
+/*prueba*/
+div#imagen {
+	width: 1220px;
+	height: 220px;
+	background-size: 50%;
+	background-position: center;
+	background-image: url("../public/img/micro-0.png");
+	margin: 30px auto;
+  }
+  
+  div#info {
+	position:absolute;
+	overflow:hidden;
+	width: 1220px;
+	height: 220px;
+	background-color: rgba(138, 24, 24, 0.9);
+	opacity:0;
+	transition: opacity 0.3s;
+  }
+  
+  div#imagen:hover div#info {
+	opacity:1;
+  }
+  
+  p#headline {
+	position: absolute;
+	font-size: 1.5rem;
+	text-align: center;
+	color: #ffffff;
+	margin-left: -75px;
+	margin-top: 15px;
+	transition: margin-left 0.3s;
+  }
+  
+  div#imagen:hover p#headline {
+	margin-left: 115px;
+  }
+  
+  p#descripcion {
+	font-size: 1rem;
+	color: #ffffff;
+	text-align: center;
+	margin-top: 200px;
+	transition: margin-top 0.4s;
+  }
+  
+  div#imagen:hover p#descripcion {
+	margin-top: 75px;
+  }
+/*fin*/
 #directory-1 {
 	float:right;
-    width:912px;
+    width:1220px;
     background-image: url("../public/img/line-mps.jpg"), linear-gradient(#000000d8 0%, #00000093 100%);
     background-size:100%;
     background-blend-mode:soft-light
 }
 .fourth-1 {
 	float:right;
-	width:850px;
+	width:1150px;
 	padding-top:30px;
 	height:240px;
 	margin:0 15px 15px 0;
@@ -138,7 +178,7 @@ h5 {
 }
 .col {
 	float:left;
-	width:420px;
+	width:270px;
 	margin:0 35px 40px 0;
 }
 .col h3 {
@@ -189,17 +229,11 @@ h5 {
 	background:#fff;
 	float:left;
 }
-#slider {
-	float:left;
-	width:15px;
-	height:385px;
-	border:1px solid #ddd;
-	background-color: #B00000;
-}
 #slider:hover {
 	background-color:#f4f4f4;
 }
 #directory {
+	margin: 0 150px;
 	float:right;
 	width:901px;
 }
@@ -212,19 +246,9 @@ h5 {
 	border:1px solid #ddd;
 	font-size:.84em;
 }
-#slider-2 {
-	float:left;
-	width:15px;
-	height:284px;
-	border:1px solid #ddd;
-	background-color: #B00000;
-}
-#slider-2:hover {
-	background-color:#f4f4f4;
-}
 #directory-2 {
 	float:left;
-    width:912px;
+    width:1220px;
     background-image: url("../public/img/Micro-1.jpg"), linear-gradient(#000000d8 0%, #00000093 100%);
     background-size:100%;
     background-blend-mode:soft-light
