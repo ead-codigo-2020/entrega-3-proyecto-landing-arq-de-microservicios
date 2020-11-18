@@ -16,10 +16,13 @@
     <p>Los microservicios son un estilo de arquitectura informática y de programación de software que se caracterizan principalmente por la división de sus aplicaciones en elementos más pequeños e independientes unos de otros. Este enfoque añade flexibilidad y dinamismo, ya que es más fácil agregar funciones nuevas a un programa informático dividiéndolo en múltiples partes que si se organiza en una única aplicación </p>
   </div>
 <!--pruebas-->
+<h1>CREADORES</h1>
 <div id="imagen">
   <div id="info">
-    <p id="headline">DATOS</p>
-    <p id="descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente voluptates.</p>
+    <p id="headline">James Lewis y Martin Fowler</p>
+    <p id="descripcion">James Lewis es Consultor Principal de ThoughtWorks y miembro del Consejo Asesor de Tecnología. El interés de James en construir aplicaciones a partir de pequeños servicios de colaboración proviene de su experiencia en la integración de sistemas empresariales a escala.
+      Martin Fowler es un autor, orador y divulgador general sobre el desarrollo de programas informáticos
+    </p>
       </div>
 </div>
 <!--seccion foto-->  
@@ -60,83 +63,43 @@
 <!--espacio foto2-->
 <div id="directory-2">
   <div class="fourth-2">
-	<h1 class="h1-light"> ENTENDAMOS LA ARQUITECTURA DE MICROSERVICIO</h1>
-	<p>Para comprender la arquitectura basada en microservicios, lo mejor es considerar su opuesto, su némesis, la arquitectura monolítica . En ésta, la aplicación se desarrolla como una única unidad que no necesitará de ningún componente externo para funcionar . Por ejemplo, en una aplicación como la que desarrollamos hace unos días en Meteor que cuenta con un lado del cliente y un lado servidor, el “monolito” cliente se encargará de las peticiones HTTP, ejecutar la lógica y recibir/actualizar la información desde la base de datos. El problema de las aplicaciones monolíticas es que todos los “ciclos de cambio” están vinculados unos a otros , por lo que la más mínima modificación en una remota sección de la app conllevaría a la creación y despliegue de una versión completamente nueva, con el gasto de recursos correspondiente. Por no hablar de si queremos escalar un apartado específico del proyecto o directamente la aplicación al completo; y aquí es donde los desarrolladores han visto el potencial de los microservicios.</p>
+  <h1 class="h1-light">MICROSERVICIOS V/S ARQUITECTURA MONOLITICA</h1>
+  <p>Los microservicios surgen como una alternativa a la manera tradicional de desarrollar aplicaciones, que se denomina arquitectura monolítica. Este tipo de aplicaciones es muy dependiente del hardware sobre el que se instala, y se configura como un “bloque” único – el monolito, precisamente – compuesto por tres niveles: el front end, la lógica de business y los datos. Esta gran dependencia del hardware se materializa en largos tiempos de inactividad a la hora de realizar actualizaciones del software o despliegues de nuevo hardware para añadir más capacidad. El modelo monolítico es totalmente incompatible con la gran velocidad de los ciclos de desarrollos y con los requerimientos de disponibilidad actuales. Hoy en día, sería impensable tener que pasar por un ciclo entero de integración y testing de una aplicación entera cada vez que se modifique una de sus partes. Un e-commerce cuya web no esté disponible 24/7 perdería un gran número de clientes, que se pasarían a la competencia. De la misma manera, cada vez es menos aceptable que la web de un banco sufra unas ventanas de mantenimiento, lo que hasta hace poco era la norma.</p>
   </div>
 </div>
-<!--Bajocuerpo patrones-->
-<div class="section">
-  <p>EJEMPLOS DE MICROSERVICIOS</p>
-</div>
-<div class="x"></div>
-<div id="directory">
-  <div class="fourth">
-	<h5>Patrón de Fachada</h5>
-	<p> Define una API externa especifica para un sistema o subsistema.
-	  El subtexto de este patron patron es que esta API es impulsada por la empresa
-	</p>
-  </div>
-  <div class="fourth">
-	<h5>Patrónes de Entidad y Agregado</h5>
-	<p>Utiles para identificar conceptos especificos de la empresa que se relacionan directamente con microservicio, para equipos de desarrollo que no estan acostumbrados a diseñar en terminos de interfaces de empresas </p>
-  </div>
-  <div class="fourth">
-	<h5>Patrón de Servicios</h5>
-	<p>Ofrece una manera de mapear operaciones que no corresponden a una sola entidad o agregando en el enfoque basado en entidad que se requiere para los microservicios</p>
-  </div>
-  <div class="fourth">
-	<h5>Patron Adaptor Microservice</h5>
-	<p>Es util en el mundo corporatico, donde en muchos casos los equipos de desarrollo no tienen control centralizado sobre los datos de patrones</p>
-  </div>
-  <div class="fourth">
-	<h5>Patrón Strangler Aplication</h5>
-	<p>Aborda el hecho de que las empresas y las aplicaciones nunca viven en realidad en un entorno sin restricciones. Los programas que más pueden beneficiarse por los microservicios sol las grandes aplicaciones monoliticas que pueden refactorear.</p>
-  </div>
-</div>
-<!--Doble seccion-->
+<!--PROS-->
 <div class="line"></div>
-<h1>MAS INFO</h1>
-  <div class="col">
-    <h4>Nunc commodo euismod</h4>
-    <p class="date"><span>28</span><br />
-      JUN</p>
-    <p class="news">Quisque scelerisque purus quis eros sollicitudin gravida. Aliquam erat volutpat. Donec a sem consequat tortor posuere dignissim sit amet at ipsum. </p>
-  </div>
-  <div class="col">
-    <h4>Lorem ipsum dolor sit</h4>
-    <p class="date"><span>03</span><br />
-      JUN</p>
-    <p class="news">Quisque scelerisque purus quis eros sollicitudin gravida. Aliquam erat volutpat. Donec a sem consequat tortor posuere dignissim sit amet at ipsum.</p>
-  </div>
   <div class="x"></div>
-<div class="line"></div>
-  <div class="col">
-    <h4>Nunc commodo euismod</h4>
-    <p class="date"><span>28</span><br />
-      JUN</p>
-    <p class="news">Quisque scelerisque purus quis eros sollicitudin gravida. Aliquam erat volutpat. Donec a sem consequat tortor posuere dignissim sit amet at ipsum. </p>
+  <h1>VENTAJAS</h1>
+  <div class="col2">
+    <h3>Modularidad</h3>
+    <div class="ft">
+      <p>Al tratarse de servicios autónomos, se pueden desarrollar y desplegar de forma independiente. Además un error en un servicio no debería afectar la capacidad de otros servicios para seguir trabajando según lo previsto.</p>
+    </div>
   </div>
-  <div class="col">
-    <h4>Lorem ipsum dolor sit</h4>
-    <p class="date"><span>03</span><br />
-      JUN</p>
-    <p class="news">Quisque scelerisque purus quis eros sollicitudin gravida. Aliquam erat volutpat. Donec a sem consequat tortor posuere dignissim sit amet at ipsum.</p>
+  <div class="col2">
+    <h3>Escalabilidad</h3>
+    <div class="ft">
+      <p>Como es una aplicación modular, se puede escalar horizontalmente cada parte según sea necesario, aumentando el escalado de los módulos que tengan un procesamiento más intensivo.</p>
+    </div>
   </div>
-  <div class="x"></div>
-<!--extraespacio-->
-  <div id="updates">
-    <h5>Receive updates and special offers</h5>
-    <form action="#">
-      <p>
-       Lorem ipsum dolor sit amet.
-      </p>
-    </form>
+  <div class="col2">
+    <h3>Versatilidad</h3>
+    <div class="ft">
+      <p>Se pueden usar diferentes tecnologías y lenguajes de programación. Lo que permite adaptar cada funcionalidad a la tecnología más adecuada y rentable.</p>
+    </div>
   </div>
- <!--footer--> 
-  <div id="footer">
-    <p class="right">Design by</p>
-    <div class="x"></div>
-  </div>
+  <!--xx-->
+   <span class="container">
+    <h1 class="h1-light2">EJEMPLOS</h1>
+      <div class="column-left">Esta plataforma tiene una arquitectura generalizada que desde hace ya un par de años se pasó a los microservicios para el funcionamiento de sus productos. A diario recibe una media de mil millones de llamadas a sus diferentes servicios y es capaz de adaptarse a más de 800 tipos de dispositivos mediante su API de streaming de vídeo, la cual para ofrecer un servicio más estable, por cada solicitud que le pedimos, ésta realiza cinco solicitudes a diferentes servidores para no perder nunca la continuidad de la transmisión.</div>
+      <div class="column-center">Migró hace tres años a la arquitectura de microservicios siendo una de las primeras grandes compañías que la implementaban en producción. No hay cifra aproximada de la cantidad de solicitudes que pueden recibir a diario, pero no son pocas. Entre éstas encontramos multitud de aplicaciones, las API del servicio web que ofrecen o la propia web de Amazon, cuyos ingenieros reconocen que habría sido imposible sobre la arquitectura monolítica con la que trabajaban previamente.</div>
+      <div class="column-right">La construcción de una arquitectura de microservicios permite a Spotify tener una gran cantidad de servicios al mismo tiempo sin que los usuarios lo noten. Han construido su sistema suponiendo que los servicios pueden fallar todo el tiempo, por lo que los servicios individuales que podrían estar fallando no tienen demasiada implicación total, por lo que no pueden arruinar la experiencia de usar Spotify.</div>
+    </span>
+ </div>
 </div>
 </body>
+<footer>
+  i'm a footer
+</footer>
 </html>
